@@ -6,4 +6,3 @@ export const apiUrls = {
     RECETAS_MEDICAS_URL: `/recetas-medicas`,
 };
 
-

@@ -52,8 +52,8 @@
 			doctorId: $userStore.name,
 			productos: medicamentos
 		};
-
-		const res: any = await axios.post(apiUrls.RECETAS_MEDICAS_URL, body);
+		console.log(body);
+		const res: any = await axios.post("http://23.23.15.212/recetas-medicas", body);
 
 		console.log(res);
 	}
